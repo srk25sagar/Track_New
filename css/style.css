@@ -1,0 +1,175 @@
+#logo{
+    height: 60px;
+    width: 60px;
+    padding: 0px;
+}
+
+#loginimage{
+    height: 60px;
+    width: 60px;
+    }
+ 
+.navbar-inverse{
+    background-color: rgb(206, 57, 37);
+    border:0px;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: middle;
+    border-top: 7px dashed;
+    border-bottom: 5px solid\9;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+#loginmail{   
+    float: right;
+    width: 24px;
+    height: 15px;
+    margin-top: 32px;
+    margin-right: 11px;
+ }
+
+ #loginname{
+     padding: 0px;
+     margin-top: 10px;
+     margin-left: -60px;
+ }
+ #username{
+    color: white;
+    padding: 0px;
+    float: right;
+ }
+
+ ul {
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow: auto;
+}
+#img1{
+	height:60px;
+	width:60px;
+    opacity: 1;
+}
+#img2{
+	height:60px;
+	width:60px;
+	opacity: 0.5;
+}
+#img3{
+	height:60px;
+	width:60px;
+	opacity: 0.5;
+}
+#img4{
+	height:60px;
+	width:60px;
+	opacity: 0.5;
+}
+#sidebar{
+    background-color: rgb(14, 154, 235);
+    border-color: rgb(14, 154, 235);
+    border-radius: 0px;
+    border: 0px;
+}
+#extraimg{
+    width: 60px;
+    height: 362px;
+    background-color:rgb(14, 154, 235) ;
+    display: -webkit-box;
+}
+
+#img1:hover, #img2:hover, #img3:hover ,#img4:hover{
+	opacity:1;
+}
+
+nav ul li a.active{
+    opacity: 1;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(14, 154, 235);
+    min-width: 96px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	margin-left: 1205px;
+    margin-top: 34px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+	text-align: center;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+#navbar{
+    margin-bottom: 0px;;
+    background-color: black;
+    height: 40px;
+}
+
+/*
+.logisticpage{
+    
+        padding-left: 80px;
+        padding-top: 8px;
+    }
+    #headding{
+        padding: 40px;
+    }
+    #selecttag, #selecttagitem, #selecttagadd , #selecttagadd1{
+    
+        width: 200px;
+        height: 18px;
+        margin-right: 26px!important;
+    }
+    #selecttag1, #selecttag2,#selecttag3{
+    
+        width: 204px!important;
+        height: 25px;
+        float: right;
+        margin-right: 26px;
+    }
+    
+    #Description_div{
+        display:inline-flex;
+        padding-left: 5px;
+    }
+    */
+    
+    
+    .w3-button:hover{color:#000!important;background-color:#ccc!important}
+    .w3-button{border:none;border-radius: 7px;
+        width: 83px;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;
+        text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;
+        white-space:nowrap}
+    
+    .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+    .w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+    .w3-brown,.w3-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+    .w3-cyan,.w3-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+    .w3-blue-grey,.w3-hover-blue-grey:hover,.w3-blue-gray,.w3-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+    .w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+    .w3-display-bottomleft{position:absolute;left:0;bottom:0}
+    .w3-display-bottomrightw3-display-bottomright{position:absolute;right:0;bottom:0}
+    
+
+
+    

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>track</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link type="text/css"  rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+        <nav class="navbar navbar-inverse" style="margin-bottom: 0px;">
+
+ <ul class="nav navbar-nav" >
+     <li>  <a id="logo"><img src="images/z-scale-track-logo.png" id="logo" ></img></a></li>  
+    </ul>
+     <ul class="nav navbar-nav" style="float:right;">   
+     <li><img src="images/email-logo.jpg" id="loginmail" ></img></li> 
+     <li id="loginname"><label><input id="username" style=" color: white;
+         background-color:rgb(206, 57, 37); border: rgb(206, 57, 37);text-align: right; width: 80%; " 
+         name="usrid" disabled/></lable><br><label id="username">Logistic Manager</label></li>
+     <li><a  id="logindropa" Onclick="dropdownload()"><span class="caret"  id="logindrop"></span></a></li>
+      <li><img src="images/loginimage.jpg" id="loginimage" ></img></li>
+    
+      </ul>
+      <div id="myDropdown" class="dropdown-content" style="display:none" >
+            <a href="index.html">Signout</a>
+        
+          </div>
+    </ul>
+    </nav>
+            <div class="container-fluid" style="padding: 0px;margin: 0px;>
+                    <div class="row" style="margin: 0px;padding: 0px;">
+                      <div class="col-md-1 col-lg-1" style="padding: 0px;  width: 60px; margin-bottom: 0px;">
+                        <nav class="navbar navbar-default navbar-fixed-side" id="sidebar" style="margin-bottom: 0px;">
+                                <ul>
+                                    <li><a href="trackpage.html"class="active" Onclick="loadmain1()"><img src="images/location.png" id="img1" class="link1"/></a></li>
+                                       <li><a Onclick="loadmain2()"> <img src="images/trans.jpg" id="img2"  class="link2"/></a></li>
+                                       <li><a  Onclick="loadmain3()" ><img src="images/cart.png" id="img3" class="link3" /></a></li>
+                                       <li><a Onclick="loadmain4()"><img src="images/rotate.jpg" id="img4" class="link4" /></a></li>
+                                       <li><a  id="extraimg">qw</a></li>
+                                     </ul>
+                    </nav>
+                    <div id="myDropdown" class="dropdown-content" style="display:none" >
+                            <a href="index.html">Signout</a>
+                        
+                          </div>
+                      </div>
+                   
+<div class="col-md-11 col-lg-11" id="page1" style="background-color:red;margin-bottom: 0px;">
+                
+Main page
+                         
+</div>
+<div class="row" style="display:none;padding: 0px;margin: 0px;"id="page2" >
+    <div class="col-md-5 col-lg-1"  style="background-color:rgb(207, 245, 70)" >
+                        gjyftkt
+    </div>
+</div> 
+<div class="container-fluid" style="padding: 0px;margin: 0px;">
+<div class="row" style="display:none; padding: 0px;margin: 0px;" id="page3" >
+    <div class="col-md-11"  style="background-color:green;padding: 0px;" id="pagenav">
+            <nav class="navbar navbar-inverse" id="navbar" style="margin-right: -54px;border-radius: 0px;">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="#" id="package" Onclick="loadmain3()">Package List</a></li>
+                        <li><a href="#" id="addpackage" Onclick="loadmain6()">Add Package</a></li>
+                      </ul>
+            </nav>
+  
+     </div>  
+
+            <div class="row" style="display:none;padding: 0px;margin: 0px;" id="page5" >
+                    <div class="col-md-11"  style="background-color:rgb(243, 162, 162);padding: 0px;" >
+                        dzfsdf
+         </div>           
+                </div>
+                <div class="row" style="padding: 0px;margin: 0px;" id="page6" >
+                        <div class="col-md-11"  style="background-color:white;padding: opx;" >
+                        <h4> Provide Package Details</h4>
+                        <div class="row" style="padding: 0px;margin: 0px;">
+                            <form id="myform" name="myform"class="col-md-10"style=" margin-top: 10px; ">
+<div class="col-md-12" style=" margin: 5px; " >
+    <label class="col-md-2 text-right" >Order Name :</label><input class="col-md-2" "type="text" value="" id="selecttag" Name="Ordername" > 
+    <label class="col-md-2 text-right" style="color: red;">  Oreder ID : </label> <label class="col-md-2" > 123456789 </label>
+</div>
+<div class="col-md-12" style=" margin: 5px; " >
+        <label class="col-md-2 text-right" >Form :</label><select style=" height: 25px; " class="col-md-2" id="selecttag1" Name="from">
+                <option value="select">--Select--</option>
+                <option value="city1">city1</option>
+                <option value="city2">city2</option>
+                <option value="city3">city3</option>
+                <option value="city4">city4</option>
+              </select>
+              <label class="col-md-2 text-right" >To :  </label> 
+              <select id="selecttag2"  style=" height: 25px; " class="col-md-2"Name="to">
+                <option value="select">--Select--</option>
+                <option value="city1">city1</option>
+                <option value="city2">city2</option>
+                <option value="city3">city3</option>
+                <option value="city4">city4</option>
+              </select>
+              <label class="col-md-2 text-right" >Order Type : </label> 
+              <select id="selecttag3" class="col-md-2" style=" height: 25px; " cName="ordertype">
+                <option value="select"  >--Select--</option>
+                <option value="city1">city1</option>
+                <option value="city2">city2</option>
+                <option value="city3">city3</option>
+                <option value="city4">city4</option>
+              </select>
+</div>
+<div class="col-md-12" style=" margin: 5px; " >
+
+        <label class="col-md-2 text-right" >  Address : </label> <input class="col-md-2 " type="text" value="" id="selecttagadd" Name="Address" >
+        <label class="col-md-2 text-right" >  Address : </label> <input class="col-md-2 " type="text"  value="" id="selecttagadd1" Name="Address1">
+        <label class="col-md-2 text-right" >  Item Count : </label> <input class="col-md-2"  type="number"  value="" id="selecttagitem" Name="ItemCount">
+</div>
+<div class="col-md-12" style=" margin: 5px; " >
+        <label class="col-md-2 text-right" >  Description : </label>
+        <textarea class="col-md-10" rows="9" cols="123" ></textarea>
+</div>
+<div class="col-md-12" style=" margin: 5px; " >
+    <div  class="col-md-10"></div>
+        <button type="reset" class="btn btn-danger" >Clear</button>
+        <button  type="button" class="btn btn-primary" onclick="validate()">Save  </button>
+        
+</div>
+                                
+                            </form>
+
+                        </div>
+                        </div>
+                    </div> 
+</div> 
+<div class="row" style="display:none;padding: 0px;margin: 0px;" id="page4" >
+        <div class="col-md-10 col-lg-10"  style="background-color:rgb(243, 13, 101)" >
+        gjyftkt
+        </div>
+    </div> 
+</div>
+</div>
+   
+</div>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/database.js"></script>
+<script type="text/javascript" src="js/trackjava.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+    
+    </script>
+</body>
+</html>

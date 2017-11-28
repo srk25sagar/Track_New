@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>track</title>
+  <link type="text/css"  rel="stylesheet" href="css/style.css">
+  <link type="text/css"  rel="stylesheet" href="css/loginpage.css">
+  <script type="text/javascript" src="js/trackjava.js"></script>
+  <script type="text/javascript" src="js/database.js"></script>
+	<style> 
+</style>
+
+</head>
+<body>
+
+<div class="login-page">
+  <div class="form" >
+    <form class="register-form" id ="myBlock2" style="display:none;">
+      <input type="text" placeholder="name" id="name-create"/>
+      <input type="password" placeholder="password" id="password-create"/>
+      <input type="text" placeholder="email address" id="email-address-create"/>
+      <input type="button" value="create" onclick="validatecreate()" id="indexcreate">
+      <p class="message">Already registered? <a href="#" onclick="myFunction2()">Sign In</a></p>
+    </form>
+    <form class="login-form" id ="myBlock" style="display:block;" >
+      <input type="text" placeholder="username" id="username-login"/>
+      <input type="password" placeholder="password" id="password-login"/>
+      <input type="button" value="Login" onclick="validateLogin()" id="indexlogin">
+      <p class="message">Not registered? <a href="#" onclick="myFunction1()" >Create an account</a></p>
+    </form>
+  </div>
+</div>
+</body>
+</html>
