@@ -1,3 +1,9 @@
+body{
+    font-family:Roboto;
+
+}
+
+
 #logo{
     height: 60px;
     width: 60px;
@@ -172,4 +178,42 @@ nav ul li a.active{
     
 
 
-    
+#routelisthead{
+    background-color: black;
+    border-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.table-bordered>tbody>tr>td,
+ .table-bordered>tbody>tr>th,
+  .table-bordered>tfoot>tr>td,
+   .table-bordered>tfoot>tr>th,
+    .table-bordered>thead>tr>td,
+     .table-bordered>thead>tr>th {
+    border: 1px solid #545050;
+}
+
+#lastSCHEDULED{
+    text-align:center; 
+}
+
+#schedulerbutton{
+    background-color: blue;
+     border-color: blue;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 1px;
+     padding-top: 1px;
+}
+
+#routeid{
+    text-align:center; 
+    padding: 6px;
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
