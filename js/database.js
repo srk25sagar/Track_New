@@ -29,17 +29,17 @@
             console.log("success: "+ db);
          };
          
+         var id=1; 
+
          request.onupgradeneeded = function(event) {
             var db = event.target.result;
-            var objectStore = db.createObjectStore("sagarData", {keyPath: "id"});
+            var objectStore = db.createObjectStore("sagarData", {keyPath: "id", autoIncrement:true });
             
             for (var i in sagarData) {
                objectStore.add(sagarData[i]);
             }
 
          }
-		 
- 			var id1=1;        
 
          function add() {
 		
@@ -54,8 +54,8 @@
             var request = db.transaction(["sagarData"], "readwrite")
             .objectStore("sagarData")
 			
-            .add({ id:id1, Ordername:Ordername, Form:Form, To:To ,Ordertype:Ordertype,FromAddrees:FromAddrees, ToAddress :ToAddress, Itemcount:Itemcount});
-            id1++;
+            .add({  Ordername:Ordername, Form:Form, To:To ,Ordertype:Ordertype,FromAddrees:FromAddrees, ToAddress :ToAddress, Itemcount:Itemcount});
+            //id1++;
 			
             request.onsuccess = function(event) {
                alert("added to your database.");
